@@ -1,13 +1,13 @@
 迁移学习TransforLearning
 ======================
 [『TensorFlow』迁移学习_他山之石，可以攻玉](http://www.cnblogs.com/hellcat/p/6909269.html "我的博客")<br>
-## 相关下载
+## 1、相关下载
 数据和预训练模型下载：
 ```Shell
 curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
 wget https://storage.googleapis.com/download.tensorflow.org/models/inception_dec_2015.zip
 ```
-## 项目简介
+## 2、项目简介
 本项目将使用ImageNet数据集预训练好的InceptionV3网络结构舍弃后面全连接层，使用了新的分类器对花朵数据进行了迁移学习，迁移学习对于这种中等偏小的数据集又为合适。<br>
 
 ### 项目文件
