@@ -1,6 +1,6 @@
 迁移学习TransforLearning
 ======================
-[『TensorFlow』迁移学习_他山之石，可以攻玉](http://www.cnblogs.com/hellcat/p/6909269.html "我的博客")<br>
+[『TensorFlow』迁移学习](http://www.cnblogs.com/hellcat/p/6909269.html "我的博客")<br>
 ## 1、相关下载
 数据和预训练模型下载：
 ```Shell
