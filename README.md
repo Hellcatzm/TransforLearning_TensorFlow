@@ -12,6 +12,7 @@ wget https://storage.googleapis.com/download.tensorflow.org/models/inception_dec
 
 ### 项目文件
 ![](https://images2018.cnblogs.com/blog/1161096/201804/1161096-20180424094519006-1238870240.png "项目文件") <br>
+`inception_dec_2015`：模型存放文件夹，下载后解压模型文件就会生成<br>
 `flower_photos`：文件目录，下面包含各个子类的`文件夹`，如果使用自己的数据的话，将自己数据各个类别分别放入一个文件夹，文件夹名字是类的字符串名字即可，将这些文件夹放入flower_photos文件夹内即可<br>
 `TransforLearning.py`：主程序，用于训练，不过注意，可训练文件格式应该是jpg（jpeg、JPG等等写法均可）<br>
 `TransferLearning_reload.py`：用于预测，仅能进行单张图片类别预测，需要进入文件中(21行左右)，将`image_path`修改为自己的图片路径<br>
