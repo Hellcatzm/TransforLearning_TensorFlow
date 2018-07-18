@@ -14,6 +14,8 @@ import pprint as pp
 import tensorflow as tf
 from TransforLearning import creat_image_lists
 
+tf.logging.set_verbosity(tf.logging.INFO)
+
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tf.Session(config=config)
