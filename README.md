@@ -17,6 +17,7 @@ wget https://storage.googleapis.com/download.tensorflow.org/models/inception_dec
 `TransforLearning.py`：主程序，用于训练，不过注意，可训练文件格式应该是jpg（jpeg、JPG等等写法均可）<br>
 `TransferLearning_reload.py`：用于预测，仅能进行单张图片类别预测，需要进入文件中(21行左右)，将`image_path`修改为自己的图片路径<br>
 其他文件夹为程序自己生成，不需要提前新建<br>
+文件夹`Keras_TransforLearning `和`MXnet_TransforLearning `分别展示了使用Keras和MXNet快速进行分类任务的接口调用Demo，由于使用的是高级API，可以极快上手，值得学习<br>
 
 ### 运行命令
 首先训练，
