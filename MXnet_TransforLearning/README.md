@@ -5,4 +5,4 @@
 train_ds = gdata.vision.ImageFolderDataset(root = r'.\Hotdog',  # 指定到图片根目录
                                            flag=1)              # 0转换为灰度图，1转换为彩色图
 ```
-最后按顺序运行各个代码块即可
+最后按顺序运行各个代码块即可。
