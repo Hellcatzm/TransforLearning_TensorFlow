@@ -1,4 +1,5 @@
 ## MXNet 实现简单的分类任务
+[『MXNet』第九弹_分类器以及迁移学习DEMO](https://www.cnblogs.com/hellcat/p/9098168.html)<br>
 首先做好图片文件夹，形式和tf版本一致：一个大文件夹下存放各个class的文件夹，每个class的文件夹内存放对应class的图片。<br>
 然后，将`mxnet_classifiter.ipynb `数据预处理代码块中如下代码中的图片目录指定到自己的图片文件夹，<br>
 ```
